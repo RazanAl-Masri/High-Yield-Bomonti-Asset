@@ -23,8 +23,8 @@
         width:100% !important;
         max-width:100% !important;
       }
-      .stack-column,
-      .stack-column img {
+      .two-column,
+      .two-column img {
         display:block !important;
         width:100% !important;
         max-width:100% !important;
@@ -61,8 +61,6 @@
             <tr>
               <!-- Logo -->
               <td class="logo-cell" align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif;">
-                <!-- If you have a logo image, replace the text block with an <img> -->
-                <!-- Example: <img src="logo.png" width="160" alt="TIMONDRO" style="display:block;"> -->
                 <div style="font-size:22px; font-weight:bold; letter-spacing:2px;">
                   <span style="color:#f15a29;">T</span>IMONDRO
                 </div>
@@ -107,38 +105,42 @@
         <td style="height:24px; line-height:24px; font-size:0;">&nbsp;</td>
       </tr>
 
-      <!-- IMAGE STRIP (4 IMAGES) -->
+      <!-- IMAGE GRID (2 BIG + 2 BIG UNDER THEM) -->
       <tr>
         <td align="center">
           <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+            <!-- Top row: 2 big photos -->
             <tr>
-              <!-- Image 1 -->
-              <td class="stack-column" width="25%" valign="top">
+              <td class="two-column" width="50%" valign="top">
                 <img src="1.jpeg"
-                     width="150"
                      alt="Interior office view"
-                     style="width:100%; max-width:150px; height:auto;">
+                     width="300"
+                     style="width:100%; max-width:300px; height:auto;">
               </td>
-              <!-- Image 2 -->
-              <td class="stack-column" width="25%" valign="top">
+              <td class="two-column" width="50%" valign="top">
                 <img src="2.jpeg"
-                     width="150"
                      alt="Street & facade"
-                     style="width:100%; max-width:150px; height:auto;">
+                     width="300"
+                     style="width:100%; max-width:300px; height:auto;">
               </td>
-              <!-- Image 3 -->
-              <td class="stack-column" width="25%" valign="top">
+            </tr>
+            <!-- Small spacer between rows -->
+            <tr>
+              <td colspan="2" style="height:4px; line-height:4px; font-size:0;">&nbsp;</td>
+            </tr>
+            <!-- Bottom row: 2 even-size photos -->
+            <tr>
+              <td class="two-column" width="50%" valign="top">
                 <img src="3.jpeg"
-                     width="150"
                      alt="Lobby view"
-                     style="width:100%; max-width:150px; height:auto;">
+                     width="300"
+                     style="width:100%; max-width:300px; height:auto;">
               </td>
-              <!-- Image 4 -->
-              <td class="stack-column" width="25%" valign="top">
+              <td class="two-column" width="50%" valign="top">
                 <img src="4.jpeg"
-                     width="150"
                      alt="Meeting room"
-                     style="width:100%; max-width:150px; height:auto;">
+                     width="300"
+                     style="width:100%; max-width:300px; height:auto;">
               </td>
             </tr>
           </table>
