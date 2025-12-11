@@ -105,45 +105,65 @@
         <td style="height:24px; line-height:24px; font-size:0;">&nbsp;</td>
       </tr>
 
-      <!-- IMAGE GRID (2 BIG + 2 BIG UNDER THEM) -->
-      <tr>
-        <td align="center">
-          <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
-            <!-- Top row: 2 big photos -->
-            <tr>
-              <td class="two-column" width="50%" valign="top">
-                <img src="1.jpeg"
-                     alt="Interior office view"
-                     width="300"
-                     style="width:100%; max-width:300px; height:auto;">
-              </td>
-              <td class="two-column" width="50%" valign="top">
-                <img src="2.jpeg"
-                     alt="Street & facade"
-                     width="300"
-                     style="width:100%; max-width:300px; height:auto;">
-              </td>
-            </tr>
-            <!-- Small spacer between rows -->
-            <tr>
-              <td colspan="2" style="height:4px; line-height:4px; font-size:0;">&nbsp;</td>
-            </tr>
-            <!-- Bottom row: 2 even-size photos -->
-            <tr>
-              <td class="two-column" width="50%" valign="top">
-                <img src="3.jpeg"
-                     alt="Lobby view"
-                     width="300"
-                     style="width:100%; max-width:300px; height:auto;">
-              </td>
-              <td class="two-column" width="50%" valign="top">
-                <img src="4.jpeg"
-                     alt="Meeting room"
-                     width="300"
-                     style="width:100%; max-width:300px; height:auto;">
-              </td>
-            </tr>
-          </table>
+   <!-- IMAGE GRID WITH PERFECT EQUAL SIZES (EMAIL SAFE) -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+  
+  <!-- Top Row -->
+  <tr>
+    <!-- Image 1 -->
+    <td width="50%" valign="top"
+        style="background-image:url('1.jpeg');
+               background-size:cover;
+               background-position:center center;
+               background-repeat:no-repeat;
+               height:220px;">
+      <!-- Fallback image for clients that ignore background images -->
+      <img src="1.jpeg" alt="" width="100%" height="220"
+           style="display:block; opacity:0;">
+    </td>
+
+    <!-- Image 2 -->
+    <td width="50%" valign="top"
+        style="background-image:url('2.jpeg');
+               background-size:cover;
+               background-position:center center;
+               background-repeat:no-repeat;
+               height:220px;">
+      <img src="2.jpeg" alt="" width="100%" height="220"
+           style="display:block; opacity:0;">
+    </td>
+  </tr>
+
+  <!-- Small gap -->
+  <tr><td colspan="2" style="height:6px; line-height:6px;">&nbsp;</td></tr>
+
+  <!-- Bottom Row -->
+  <tr>
+    <!-- Image 3 -->
+    <td width="50%" valign="top"
+        style="background-image:url('3.jpeg');
+               background-size:cover;
+               background-position:center center;
+               background-repeat:no-repeat;
+               height:220px;">
+      <img src="3.jpeg" alt="" width="100%" height="220"
+           style="display:block; opacity:0;">
+    </td>
+
+    <!-- Image 4 -->
+    <td width="50%" valign="top"
+        style="background-image:url('4.jpeg');
+               background-size:cover;
+               background-position:center center;
+               background-repeat:no-repeat;
+               height:220px;">
+      <img src="4.jpeg" alt="" width="100%" height="220"
+           style="display:block; opacity:0;">
+    </td>
+  </tr>
+
+</table>
+
         </td>
       </tr>
 
